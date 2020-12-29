@@ -17,7 +17,7 @@ cd $1
 printf "\n----- NMAP -----\n\n" > resultados
 
 echo "Rodando Nmap..."
-nmap -sS -Pn $1 | tail -n +5 | head -n -3 >> resultados
+nmap -sS $1 | tail -n +5 | head -n -3 >> resultados
 
 while read line
 do

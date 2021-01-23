@@ -6,6 +6,9 @@ echo " / __/ / ___ / /____/ // /___/ / / /___/ /___/ __  /  ";
 echo "/_/   /_/  |_\____/___/_____/_/ /_____/\____/_/ /_/   ";
 echo " ";
 echo "Autor: Eduardo Amaral - eduardo4maral@protonmail.com"
+echo "You Tube : https://www.youtube.com/faciltech"
+echo "github   : https://github.com/Amaroca"
+echo "Facebook : https://www.facebook.com/faciltech123"
 if [ -z "$1" ]
 then
         echo "Modo de Uso: ./searchinfo.sh <IP> ou <dominio.com"
